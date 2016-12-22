@@ -76,10 +76,12 @@ void loop(){
 
 	if(_msg_move.updated()){
 		//... read
+		_msg_move.clearUpdated();
 	}
 
 	if(_msg_on_off.updated()){
 		//... read
+		_msg_on_off.clearUpdated();
 	}
 }
 ```
