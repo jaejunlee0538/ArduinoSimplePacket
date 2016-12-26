@@ -94,7 +94,6 @@ public:
 	static String ExtractTypeField(const String& packet);
 
 	/*
-
 	*/
 	bool serialize(String& packet);
 

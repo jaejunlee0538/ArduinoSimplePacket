@@ -1,3 +1,4 @@
+#include "BytesBuffer.h"
 #include "SimpleSerializer\DeserializeManager.h"
 #include "PacketCount.h"
 #include "PacketOnOff.h"

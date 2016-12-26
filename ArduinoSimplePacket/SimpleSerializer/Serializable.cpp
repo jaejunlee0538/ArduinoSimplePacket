@@ -48,7 +48,6 @@ namespace SerializeHelper{
 		_idx = i + 1;
 		return true;
 	}
-
 }
 
 
