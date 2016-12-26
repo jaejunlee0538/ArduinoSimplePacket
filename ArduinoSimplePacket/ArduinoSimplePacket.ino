@@ -1,6 +1,6 @@
+#include "SimpleSerializer\DeserializeManager.h"
 #include "PacketCount.h"
 #include "PacketOnOff.h"
-#include "DeserializeManager.h"
 #include "PacketMove.h"
 
 PacketOnOff sender_msg_on_off;
@@ -137,6 +137,7 @@ void SerializeManagerExample() {
 	manager.registerMessage(&_msg_move);
 	manager.registerMessage(&_msg_on_off);
 	
+	//manager.deserialize(packet_stream);
 	while (packet_stream.length()) {
 		manager.deserialize(packet_stream.substring(0, 5));
 		packet_stream.remove(0, 5);

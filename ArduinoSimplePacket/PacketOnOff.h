@@ -8,7 +8,7 @@
 #else
 	#include "WProgram.h"
 #endif
-#include "Serializable.h"
+#include "SimpleSerializer/Serializable.h"
 class PacketOnOff:public Serializable{
 public:
 	const char* getTypeField() const {

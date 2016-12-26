@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Serializable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PacketMove.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="DeserializeManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="PacketOnOff.h">
@@ -33,15 +27,21 @@
     <ClInclude Include="PacketCount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SimpleSerializer\DeserializeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleSerializer\Serializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Serializable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="PacketOnOff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PacketCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleSerializer\Serializable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

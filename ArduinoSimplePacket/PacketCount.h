@@ -8,7 +8,8 @@
 #else
 	#include "WProgram.h"
 #endif
-#include "Serializable.h"
+#include "SimpleSerializer/Serializable.h"
+
 class PacketCount :public Serializable {
 public:
 	const char* getTypeField() const {

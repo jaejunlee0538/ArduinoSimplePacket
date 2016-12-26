@@ -51,7 +51,6 @@ namespace SerializeHelper{
 	class PacketLoader{
 	public:
 		PacketLoader(String& data);
-
 		void load(const String& field);
 	private:
 		String& _data;
